@@ -8,7 +8,14 @@ namespace PracticalWork5
 {
     public class Item
     {
-        public string Name { get; set; }
-        public int Price { get; set; }
+        public string Name;
+        public int Price;
+
+        public Item(string name, int price)
+        {
+            Name = name;
+            Price = price;
+        }
+
     }
 }
